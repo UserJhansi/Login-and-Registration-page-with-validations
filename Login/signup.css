@@ -1,0 +1,53 @@
+body {
+  min-height: 100vh;             /* full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/Login/bg.jpg);
+  background-size: cover;        /* fill screen */
+  background-position: center;   /* center image */
+  background-repeat: no-repeat;  /* prevent repeating */
+  background-attachment: fixed;  /* optional fixed effect */
+}
+
+.signup{
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  color: rgb(132, 67, 144); 
+  padding: 1% 5% 5% 12%;
+}
+.signup-form{
+    align-items: center;
+    text-align: center;
+}
+#h1, #tc{
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.form-row1,.form-row2, .form-row3, .form-row4, .form-row5, .form-row5, .formrow6{
+  padding-bottom: 15px;
+}
+.name, .email, .phone, .pswd, .pswd2{
+  height: 20px;
+  width: 50%;
+  border-color: rgb(201, 245, 244);
+  border-radius: 6px;
+  font-size: 14px;
+}
+#register{
+  color: rgb(244, 242, 244);
+  width: 52%;
+  height: 30px;
+  margin-left: 26px;
+  border-color: rgb(211, 152, 243);
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: rgb(172, 111, 185);
+}
+#register:hover{
+  color: rgb(207, 47, 228);
+  background-color: rgb(237, 188, 237);
+  border-color: aliceblue;
+  cursor: pointer;
+}

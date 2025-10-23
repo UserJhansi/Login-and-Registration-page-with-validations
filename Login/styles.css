@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw; /* use vw, not vh */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden; /* prevents horizontal scroll */
+}
+ .login {
+  width: 60%;
+  max-width: 400px;
+  height: 400px;                     /* fixed height */
+  padding: 10% 0 0 15%;
+  color: rgb(212, 4, 249);
+  background-image: url("./img2.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 80% 100%;        /* stretches image to fill area */
+  
+}
+
+
+#h1{
+  font-size: 35px;
+  padding-bottom: 10% 0 0 3%;
+}
+.form-row1,.form-row2{
+  padding-bottom: 15px;
+}
+#username, #password{
+  height: 20px;
+  width: 50%;
+  border-color: rgb(201, 245, 244);
+  border-radius: 6px;
+  font-size: 14px;
+}
+#username:hover, #password:hover{
+  color: blueviolet;
+  background-color: rgb(237, 178, 207);
+  border-color: rgb(243, 178, 233);
+}
+#submit{
+  color: rgb(84, 23, 83);
+  width: 52%;
+  height: 30px;
+  margin-left: 26px;
+  border-color: rgb(193, 132, 226);
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: rgb(215, 74, 243);
+}
+#submit:hover{
+  color: rgb(78, 48, 82);
+  background-color: rgb(236, 37, 236);
+  border-color: aliceblue;
+  cursor: pointer;
+}
+#successMsg{
+  color: rgb(190, 55, 181);
+  font-size: 20px;
+  padding-top: 30px;
+}
+#username_icon, #pswd_icon{
+  font-size: 18px;
+  padding-right: 5px;
+}
+#p1{
+  width: 50%;
+  color: rgb(189, 61, 248);
+  text-align: end;
+  padding-top: 10px;
+}
+a{
+  color: rgb(165, 151, 236);
+}
